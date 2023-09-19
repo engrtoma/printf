@@ -19,11 +19,19 @@
 #define S_SHORT 1
 
 /**
+<<<<<<< HEAD
  * struct fmt - Struct op
  *
  * @fmt: The format.
  * @fn: The function associated.
  */
+=======
+* struct fmt - Struct op
+*
+* @fmt: The format.
+* @fn: The function associated.
+*/
+>>>>>>> 925fceb4594fca3103c5b8019c5e900c4be2b89c
 struct fmt
 {
 	char fmt;
@@ -32,11 +40,19 @@ struct fmt
 
 
 /**
+<<<<<<< HEAD
  * typedef struct fmt fmt_t - Struct op
  *
  * @fmt: The format.
  * @fm_t: The function associated.
  */
+=======
+* typedef struct fmt fmt_t - Struct op
+*
+* @fmt: The format.
+* @fm_t: The function associated.
+*/
+>>>>>>> 925fceb4594fca3103c5b8019c5e900c4be2b89c
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
@@ -114,5 +130,9 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
+<<<<<<< HEAD
 #endif 
 
+=======
+#endif /* MAIN_H */
+>>>>>>> 925fceb4594fca3103c5b8019c5e900c4be2b89c
